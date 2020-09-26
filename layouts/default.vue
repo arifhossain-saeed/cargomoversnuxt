@@ -6,7 +6,7 @@
 
       <Nuxt/>
 
-      <a id="calling_btn" href="tel:1-855-206-9407" title="1-855-206-9407"><i class="fa fa-phone"></i></a>
+      <!--<a id="calling_btn" href="tel:1-855-206-9407" title="1-855-206-9407"><i class="fa fa-phone"></i></a>-->
       <TheFooter/>
       <TheBottomBar/>
     </div>
