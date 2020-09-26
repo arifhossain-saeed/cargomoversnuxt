@@ -8,7 +8,7 @@ export default {
       {hid: 'description', name: 'description', content: ''}
     ],
     link: [
-      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+      {rel: 'icon', type: 'image/x-icon', href: '/Favicon.png'},
       {href: "https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic"},
 
       {href: "https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,800,700,900"},
