@@ -36,6 +36,10 @@
           { src:"https://cargomoverscanada.com/assets/front/plugins/fancyapps-fancyBox/source/jquery.fancybox.pack.js"},
           { src:"https://cargomoverscanada.com/assets/front/plugins/typed.js-master/dist/typed.min.js"},
           { src:"https://cargomoverscanada.com/assets/front/js/main.js"},
+          { src: "https://cargomoverscanada.com/assets/js/jquery-input-mask-phone-number.min.js" },
+          { src: "https://cargomoverscanada.com/assets/front/autocomplete.js" },
+          { src: "https://maps.googleapis.com/maps/api/js?key=AIzaSyDSlhXQ8ixpBW6CLmCJWOIvQXmwzXwlbj4&v=3.exp&sensor=false&libraries=places" },
+          { src: "https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" }
         ],
       }
     }

@@ -4,8 +4,8 @@
       <div class="sec-title">
         <h2><span>latest Blog</span></h2>
       </div>
-      <div class="row">
 
+      <div class="row">
 
         <div class="col-md-6">
           <div class="single-blog-post img-cap-effect">
@@ -30,6 +30,7 @@
           <br>
           <br>
         </div>
+
         <div class="col-md-6">
           <div class="single-blog-post img-cap-effect">
             <div class="img-box"> <img src="https://cargomoverscanada.com/HomeNews/1575144259.png" alt="7 Things You Need To Know About Moving Companies">
@@ -53,6 +54,7 @@
           <br>
           <br>
         </div>
+
         <div class="col-md-6">
           <div class="single-blog-post img-cap-effect">
             <div class="img-box"> <img src="https://cargomoverscanada.com/HomeNews/1575144328.png" alt="Advantages and Disadvantages of Hiring a Packers and Movers Company">
@@ -76,6 +78,7 @@
           <br>
           <br>
         </div>
+
         <div class="col-md-6">
           <div class="single-blog-post img-cap-effect">
             <div class="img-box"> <img src="https://cargomoverscanada.com/HomeNews/1575144430.jpg" alt="5 Top Most Advantages of Hiring Professional Packing Services">
@@ -99,6 +102,7 @@
           <br>
           <br>
         </div>
+
         <div class="col-md-6">
           <div class="single-blog-post img-cap-effect">
             <div class="img-box"> <img src="https://cargomoverscanada.com/HomeNews/1575228927.png" alt="We Are Cargo Movers Canada!">
@@ -122,6 +126,7 @@
           <br>
           <br>
         </div>
+
         <div class="col-md-6">
           <div class="single-blog-post img-cap-effect">
             <div class="img-box"> <img src="https://cargomoverscanada.com/HomeNews/biz-1585651262963.jpg" alt="Good To Be Safe From Coronavirus While Moving">
@@ -145,6 +150,7 @@
           <br>
           <br>
         </div>
+
         <div class="col-md-6">
           <div class="single-blog-post img-cap-effect">
             <div class="img-box"> <img src="https://cargomoverscanada.com/HomeNews/1575228909.png" alt="OUTSTANDING QUALITY">
@@ -176,7 +182,14 @@
 
 <script>
   export default {
-    name: "BlogsSectionLatestBlogs"
+    name: "BlogsSectionLatestBlogs",
+
+    props: {
+      posts: {
+        type: Array,
+        required: true
+      }
+    }
   }
 </script>
 

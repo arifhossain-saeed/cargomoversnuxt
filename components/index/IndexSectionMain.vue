@@ -10,12 +10,10 @@
           <div class="row">
             <div class="col-lg-5 form-group">
               <div class="radio">Moving From :
-                <label>
-                  <input type="radio" name="moving_from" value="ca" checked="checked">Canada <span></span></label>
+                <label><input type="radio" name="moving_from" value="ca" checked="checked">Canada <span></span></label>
                 <label><input type="radio" name="moving_from" value="us">USA <span></span></label>
               </div>
-              <input type="text" name="from_location" id="from_location" class="form-control inn-s pac-target-input"
-                     required="" placeholder="Enter a location" autocomplete="off">
+              <input type="text" name="from_location" id="from_location" class="form-control inn-s pac-target-input" required="" placeholder="Enter a location" autocomplete="off">
               <input type="hidden" name="from_venue_city" id="from_venue_city">
               <input type="hidden" name="from_venue_postal_code" id="from_venue_postal_code">
               <input type="hidden" name="from_venue_state" id="from_venue_state">
@@ -26,8 +24,7 @@
                 <label><input type="radio" name="moving_to" value="ca" checked="checked">Canada<span></span></label>
                 <label><input type="radio" name="moving_to" value="us">USA<span></span></label>
               </div>
-              <input type="text" name="to_location" id="to_location" class="form-control inn-s pac-target-input"
-                     required="" placeholder="Enter a location" autocomplete="off">
+              <input type="text" name="to_location" id="to_location" class="form-control inn-s pac-target-input" required="" placeholder="Enter a location" autocomplete="off">
               <input type="hidden" name="to_venue_city" id="to_venue_city">
               <input type="hidden" name="to_venue_postal_code" id="to_venue_postal_code">
               <input type="hidden" name="to_venue_state" id="to_venue_state">
