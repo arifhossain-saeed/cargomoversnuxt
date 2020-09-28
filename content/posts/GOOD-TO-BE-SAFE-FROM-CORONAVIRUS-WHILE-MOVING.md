@@ -3,8 +3,9 @@ title: GOOD TO BE SAFE FROM CORONAVIRUS WHILE MOVING
 description: A lot of people move their home and office for several reasons hence it is given that moving is a...
 author: cargomovers
 image: https://cargomoverscanada.com/HomeNews/biz-1585651262963.jpg
-image-secnd: https://cargomoverscanada.com/HomeNews/blog.jpg
-image-third: https://cargomoverscanada.com/HomeNews/blog1.jpg
+imageSecnd: https://cargomoverscanada.com/HomeNews/blog.jpg
+imageThird: https://cargomoverscanada.com/HomeNews/blog1.jpg
+postingDate: 2019-04-24
 ---
 A lot of people move their home and office for several reasons hence it is given that moving is an inevitable task for everyone. Earlier, moving wasn’t a lot of fuss as there was no major precautions that one had to take. All people had to do is find a new place to live, gather some boxes to stuff their belongings in, or contact a moving service to help them out. It was pretty much simple and straight forward. However, now as we are living amidst a pandemic, everything has changed a lot. The world has become different and safety and precaution is on everyone’s priority list. From masks and gloves to sanitization and social distancing, we are living a world with new rules that we are trying to get accustomed to.
 

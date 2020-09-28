@@ -1,5 +1,18 @@
 export default {
-  // Global page headers (https://go.nuxtjs.dev/config-head)
+  /*
+  ** Nuxt rendering mode
+  ** See https://nuxtjs.org/api/configuration-mode
+  */
+  mode: 'universal',
+  /*
+  ** Nuxt target
+  ** See https://nuxtjs.org/api/configuration-target
+  */
+  target: 'static',
+  /*
+  ** Headers of the page
+  ** See https://nuxtjs.org/api/configuration-head
+  */
   head: {
     title: 'cargomovers',
     meta: [
@@ -86,8 +99,20 @@ export default {
   buildModules: [],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [],
+  modules: [
+    // Doc: https://axios.nuxtjs.org/usage
+    '@nuxtjs/axios',
+    '@nuxtjs/pwa',
+    // Doc: https://github.com/nuxt/content
+    '@nuxt/content',
+    // nuxt sitemap
+    '@nuxtjs/sitemap',
+  ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {}
+  build: {},
+  
+  generate: {
+    fallback: true
+  },
 }

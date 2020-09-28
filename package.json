@@ -16,5 +16,7 @@
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "@nuxtjs/sitemap": "^2.4.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxt/types": "^2.14.3"
+  }
 }

@@ -13,8 +13,12 @@
     components: {BlogsSectionLatestBlogs, BlogsSectionMain},
 
     async asyncData ({ $content }) {
-      const posts = await $content('posts').sortBy('createdAt', 'desc').fetch()
+      const posts = await $content('posts').fetch()
       return { posts }
+    },
+
+    mounted(){
+      console.log(this.posts)
     }
   }
 </script>
