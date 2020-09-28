@@ -111,7 +111,17 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
-  
+
+  sitemap: {
+    hostname: 'http://localhost:3000',
+    path: '/sitemap.xml',
+    // cacheTime: 1000 * 60 * 60 * 2,
+    trailingSlash: true,
+    gzip: true,
+    generate: true,
+    // routes: dyRoutes
+  },
+
   generate: {
     fallback: true
   },
